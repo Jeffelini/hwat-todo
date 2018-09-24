@@ -1,6 +1,6 @@
 <template>
   <div class="add-todo">
-    <form @submit="handleSubmit">
+    <form @submit.prevent="handleSubmit">
       <input v-model="text"/>
     </form>
   </div>

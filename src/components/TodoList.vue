@@ -19,7 +19,7 @@ export default {
   name: "todo-list",
   data: function() {
     const dataString = TodoStore.load();
-    const todos = JSON.parse(dataString);
+    const todos = JSON.parse(dataString) || [];
     return { todos };
   },
   methods: {
