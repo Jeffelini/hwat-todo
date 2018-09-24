@@ -46,4 +46,7 @@ export default {
   text-decoration: line-through;
   cursor: pointer;
 }
+ul {
+  text-align: left;
+}
 </style>
