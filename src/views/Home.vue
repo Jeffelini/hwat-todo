@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <H2>hwat todo</H2>
+    <H2>Hwat Todo</H2>
     <todo-list class="todo-list" />
   </div>
 </template>
